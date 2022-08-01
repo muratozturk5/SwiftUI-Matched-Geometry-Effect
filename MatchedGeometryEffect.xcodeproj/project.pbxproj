@@ -17,6 +17,10 @@
 		FACC06142871A3150088C2B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC05EA2871A3100088C2B4 /* ContentView.swift */; };
 		FACC06152871A3150088C2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACC05EB2871A3150088C2B4 /* Assets.xcassets */; };
 		FACC06162871A3150088C2B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACC05EB2871A3150088C2B4 /* Assets.xcassets */; };
+		FACC06292871E5D30088C2B4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC06282871E5D30088C2B4 /* DetailView.swift */; };
+		FACC062A2871E5D30088C2B4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC06282871E5D30088C2B4 /* DetailView.swift */; };
+		FACC062C2871E6A10088C2B4 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC062B2871E6A10088C2B4 /* ItemView.swift */; };
+		FACC062D2871E6A10088C2B4 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC062B2871E6A10088C2B4 /* ItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		FACC06092871A3150088C2B4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACC060D2871A3150088C2B4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		FACC060F2871A3150088C2B4 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		FACC06282871E5D30088C2B4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		FACC062B2871E6A10088C2B4 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 				FACC05E92871A3100088C2B4 /* MatchedGeometryEffectApp.swift */,
 				FACC05EA2871A3100088C2B4 /* ContentView.swift */,
 				FACC05EB2871A3150088C2B4 /* Assets.xcassets */,
+				FACC06282871E5D30088C2B4 /* DetailView.swift */,
+				FACC062B2871E6A10088C2B4 /* ItemView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -300,6 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACC06132871A3150088C2B4 /* ContentView.swift in Sources */,
+				FACC06292871E5D30088C2B4 /* DetailView.swift in Sources */,
+				FACC062C2871E6A10088C2B4 /* ItemView.swift in Sources */,
 				FACC06112871A3150088C2B4 /* MatchedGeometryEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FACC06142871A3150088C2B4 /* ContentView.swift in Sources */,
+				FACC062A2871E5D30088C2B4 /* DetailView.swift in Sources */,
+				FACC062D2871E6A10088C2B4 /* ItemView.swift in Sources */,
 				FACC06122871A3150088C2B4 /* MatchedGeometryEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
