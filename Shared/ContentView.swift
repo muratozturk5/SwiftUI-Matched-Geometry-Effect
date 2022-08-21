@@ -34,7 +34,7 @@ struct ContentView: View {
                             tap = true
                         }
                     
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                            
                             
                             withAnimation(.spring(response: 0.5, dampingFraction: 0.7)){
@@ -53,7 +53,7 @@ struct ContentView: View {
                             tap2 = true
                         }
                     
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                            
                             
                             withAnimation(.spring(response: 0.5, dampingFraction: 0.7)){
@@ -66,14 +66,14 @@ struct ContentView: View {
                     }.padding()
 
                 
-                ItemView(namespace: namespace3, show: $show3,title: "Swiming",description: "Description",background: "Background 4",image: "Swiming")
+                ItemView(namespace: namespace3, show: $show3,title: "Swimming",description: "Description",background: "Background 4",image: "Swiming")
                 .scaleEffect(tap3 ? 0.95 : 1)
                 .onTapGesture {
                     withAnimation(.spring(response: 0.5, dampingFraction: 0.7)){
                         tap3 = true
                     }
                 
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                        
                         
                         withAnimation(.spring(response: 0.5, dampingFraction: 0.7)){
@@ -100,7 +100,7 @@ struct ContentView: View {
             }
             
             if show3 {
-                DetailView(namespace: namespace3, show: $show3,title: "Swiming",description: "Description",background: "Background 4",image: "Swiming").zIndex(5)
+                DetailView(namespace: namespace3, show: $show3,title: "Swimming",description: "Description",background: "Background 4",image: "Swiming").zIndex(5)
 
            }
         }
